@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    color: darkslategrey;
+    height: 100%;
+    max-width: 1350px;
+    background-color:rgb(206, 224, 218);
+}
+
+.navigation {
+    padding: 0 10px;
+    font-weight:150;
+    overflow: hidden;
+} 
+
+.navigation li {
+    padding: 10px 15px;
+    list-style: none;
+    font-size: 18px;
+    float:right;
+}
+.navigation img {
+    width: 30px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(0, 113, 36);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+}
+
+.header h1{
+    font-family:'Courier New', monospace;
+    font-weight: bold;
+    position: absolute;
+    color: #009109;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header h2{
+    font-family:'Courier New', monospace;
+    position: absolute;
+    color: #009109;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header img{
+    width: 100%;
+    height: 550px;
+   padding: 20px 0px;
+}
+.fruits-veggies a {
+    width:30px;
+     height:24px;
+}
+.fruits-veggies img {
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.fruits-veggies h4{
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px 90px;
+    margin: 15px 75px;
+}
+
+.bg-light {
+    margin: 10px auto;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgba(0,0,0,0.1);
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

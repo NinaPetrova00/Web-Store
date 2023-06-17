@@ -1,0 +1,82 @@
+* {box-sizing: border-box}
+
+/* TODO: change shrift to be the same as the others pages */
+
+body{
+  background-color:rgb(206, 224, 218);
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.header a{
+  color: #2196f3;
+  font-weight: 550;
+  text-decoration: none;
+  text-align: left;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 180px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+} */
+
+.signupbtn {
+  float: left;
+  width: 50%;
+  margin-left: 95px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 16px;
+  margin: 10px 550px;
+  box-shadow: 0px 25px 40px #4788b733;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+

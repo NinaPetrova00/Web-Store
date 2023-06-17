@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1350px;
+    background-color:rgb(206, 224, 218);
+    background-image: url('../images/homeImages/fruit.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: right;
+    padding: 50px 0px 650px 6px;
+}
+
+.main{
+    background: white;
+    border-radius: 50px;
+    margin: 5px 88px 5px 37px;
+    padding: 15px 54px;
+    box-shadow: 1px 10px 10px #4788b733;
+    text-align: center;
+}
+
+h2 {
+    font-style: oblique;
+    padding-top: 20px;
+}

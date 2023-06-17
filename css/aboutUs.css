@@ -1,0 +1,55 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    margin: 5px 3px;
+    height: 100%;
+    max-width: 1350px;
+    background-color:rgb(206, 224, 218);
+    background-image: url('../images/homeImages/fruit.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: right;
+    padding: 10px 0px 650px 6px;
+}
+
+.header a{
+  color: #2196f3;
+  font-weight: 550;
+  text-decoration: none;
+  text-align: left;
+}
+.main{
+    background: white;
+    border-radius: 50px;
+    margin: 50px 349px 5px 33px;
+    padding: 35px 24px;
+    box-shadow: 1px 10px 10px #4788b733;
+}
+.main p{
+    text-align: left;
+}
+
+.gardens h2{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }

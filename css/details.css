@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(206, 224, 218);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(114, 154, 200)
+}
+
+.header a{
+    color: #2196f3;
+    font-weight: 550;
+    text-decoration: none;
+    text-align: left;
+}
+
+.productDetails{
+    display: inline-block;
+    width: 500px;
+    margin: 50px 400px;
+    padding: 30px 62px;
+    text-align: center;
+    background-color: #bfd5ce;
+    box-shadow: 1px 10px 10px #4788b733
+}
+
+.productDetails img{
+    border-radius: 50px;
+}
+
+.productDetails h3{
+    color: #353860;
+}
+
+.buybtn{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:#cff8eb;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buyNowBtn{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:#6fc5aa;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.del{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:#d85555;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.cncl{
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color:#6fc5aa;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.buttons{
+    display: flex;
+    text-align: center;
+}
+
+.addedProduct{
+    background-color: rgb(234 228 174);
+    height: 52px;
+    width: 98%;
+    text-align: center;
+    border: 1px solid white;
+    text-align: center;
+}
+.addedProduct a{
+    color: #009688;
+}
+.selectInput{
+    background-color: rgb(234 228 174);
+    border: 1px solid white;
+    font-size: 14px;
+    height: 20px;
+    width: 22%;
+    text-align: center;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
